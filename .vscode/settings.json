@@ -4,5 +4,6 @@
         "istream": "cpp",
         "iostream": "cpp",
         "locale": "cpp"
-    }
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }

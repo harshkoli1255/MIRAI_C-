@@ -34,7 +34,7 @@ vector<int> PlusOne(vector<int>&nums, int n) {
     return nums;
 }
 int main(){
-    vector<int>nums = {1};
+    vector<int>nums = {9,9};
     int n = nums.size();
     PlusOne(nums, n);
 

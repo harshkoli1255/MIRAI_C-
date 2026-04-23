@@ -7,6 +7,10 @@ int main(){
 
     while(binNum > 0) {
         int rem = binNum%10;
+        if(rem ==0 ) {
+            binNum /= 10;
+            continue;
+        }
         ans += rem*pow;
         pow*=2;
         binNum /= 10;

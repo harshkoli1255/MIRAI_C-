@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
 bool isFreqSame(vector<int>f1, vector<int>f2) {
-    
     for(int i = 0; i < f1.size(); i++) {
         if(f1[i]!=f2[i]) {
             return false;
@@ -12,9 +10,7 @@ bool isFreqSame(vector<int>f1, vector<int>f2) {
     return true;
 }
 
-
 bool checkPermutation(string s1, string s2) {
-
     vector<int>freq_s1(26,0);
     
     for(char &ch : s1) {
@@ -32,8 +28,6 @@ bool checkPermutation(string s1, string s2) {
             winIdx++;
             idx++;
         }
-
-
         if(isFreqSame(freq_s1,windFreq)) {
             return true;
         }

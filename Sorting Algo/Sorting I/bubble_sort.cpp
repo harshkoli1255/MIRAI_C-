@@ -11,14 +11,13 @@ void bubble_sort(vector<int> &arr) {
             }
         }
     }
-    
 }
 
 // Optimised Approach
 
 void optimised_bubble_sort(vector<int> &arr) {
     int n = arr.size();
-
+    
     for (int i = 0; i < n-1; i++) {
         bool isSwap = false;
         for (int j = 0; j < n-i-1; j++) {
