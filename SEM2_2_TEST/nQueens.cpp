@@ -53,7 +53,7 @@ int main(){
     vector<vector<string>>ans;
 
     vector<int>di = {1, 1, 4, 4, 0};
-    vector<int>dj = {1, 2, 2, 1, 1};n
+    vector<int>dj = {1, 2, 2, 1, 1};
 
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j++) {
