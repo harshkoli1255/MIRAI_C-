@@ -19,7 +19,7 @@ void solve(string &str, string &output, int idx, vector<string> &ans) {
 
 
 int main() {
-    string str = "abc";
+    string str = "1100";
     vector<string>ans;
     string output = "";
     int idx = 0;

@@ -21,7 +21,7 @@ void printAllSubSet(vector<int>&nums, vector<int>&ans, int i) {
 }
 
 int main(){
-    vector<int>nums = {1, 2, 2};
+    vector<int>nums = {1, 2, 3};
     vector<int>ans;
     int n = nums.size();
 

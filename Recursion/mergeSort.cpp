@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
 void merge(vector<int>&nums, int low, int mid, int high) {
@@ -17,13 +18,13 @@ void merge(vector<int>&nums, int low, int mid, int high) {
             right++;
         }
     }
-
+    
     while (left<=mid) {
         temp.push_back(nums[left]);
         left++;        
     }
     while (right<=high) {
-        temp.push_back(nums[high]);
+        temp.push_back(nums[right]);
         right++;
     }
 
