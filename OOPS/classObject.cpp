@@ -22,7 +22,6 @@ class Teacher {
             dept = newDept;
         }
 
-
         // setter
         void setSalary(int s) {
             salary = s;

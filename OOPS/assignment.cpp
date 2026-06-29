@@ -31,9 +31,7 @@ class Student {
         void  setIsHosteler(bool isHosteler) {
             this->isHosteler = isHosteler;
         }
-        //get Funtion
-
-        
+        //get Funtion  
         
 };
 int main(){
