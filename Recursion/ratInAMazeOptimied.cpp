@@ -33,6 +33,7 @@ int main(){
     if(maze[0][0] == 1) {
         visit[0][0] = 1;
         ratInAMaze(0, 0, n, maze, visit, di, dj,"",ans);
+        visit[0][0] = 0;
     }
 
     for(auto &i : ans) {
